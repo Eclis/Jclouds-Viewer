@@ -96,12 +96,6 @@ public class ProviderDialog extends javax.swing.JDialog {
 
         setTitle("Connection");
 
-        jComboBoxProvider.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBoxProviderActionPerformed(evt);
-            }
-        });
-
         jButtonAccess.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tick-icon.png"))); // NOI18N
         jButtonAccess.setText("Select");
         jButtonAccess.addActionListener(new java.awt.event.ActionListener() {
@@ -179,9 +173,6 @@ public class ProviderDialog extends javax.swing.JDialog {
     /**
      * Closes the dialog
      */
-    private void jComboBoxProviderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxProviderActionPerformed
-    }//GEN-LAST:event_jComboBoxProviderActionPerformed
-
     private void jButtonAccessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAccessActionPerformed
         control.select();
     }//GEN-LAST:event_jButtonAccessActionPerformed

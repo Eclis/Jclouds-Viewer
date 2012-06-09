@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.1" encoding="UTF-8" ?>
 
 <Form version="1.7" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
@@ -107,8 +107,8 @@
         <Container class="javax.swing.JPanel" name="jPanelBlobStore">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="BlobStore">
-                <Property name="tabTitle" type="java.lang.String" value="BlobStore"/>
+              <JTabbedPaneConstraints tabName="Blobstore">
+                <Property name="tabTitle" type="java.lang.String" value="Blobstore"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>

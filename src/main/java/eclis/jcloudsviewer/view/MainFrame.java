@@ -213,7 +213,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jPanelBlobStore.add(jSplitPane1, java.awt.BorderLayout.CENTER);
 
-        jTabbedPaneService.addTab("BlobStore", jPanelBlobStore);
+        jTabbedPaneService.addTab("Blobstore", jPanelBlobStore);
 
         jPanelComputeService.setLayout(new java.awt.BorderLayout());
 
