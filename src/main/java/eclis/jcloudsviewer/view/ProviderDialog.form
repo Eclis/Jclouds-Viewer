@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.1" encoding="UTF-8" ?>
 
 <Form version="1.2" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
   <Properties>
@@ -26,7 +26,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="182" max="32767" attributes="0"/>
                       <Component id="jButtonAccess" linkSize="1" min="-2" pref="89" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton1" linkSize="1" min="-2" pref="93" max="-2" attributes="0"/>
@@ -116,14 +116,8 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextFieldSAK">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="OvdLv0yTYfyXxDP7rNC1ckMvkaUhjT5TsH+O2J3G"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextFieldAKI">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="AKIAI5KOMPUQRXRU7C4A"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>

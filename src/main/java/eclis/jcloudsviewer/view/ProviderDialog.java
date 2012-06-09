@@ -120,10 +120,6 @@ public class ProviderDialog extends javax.swing.JDialog {
             }
         });
 
-        jTextFieldSAK.setText("OvdLv0yTYfyXxDP7rNC1ckMvkaUhjT5TsH+O2J3G");
-
-        jTextFieldAKI.setText("AKIAI5KOMPUQRXRU7C4A");
-
         jLabel3.setText("Access Key ID:");
 
         jLabel4.setText("Secret Access Key:");
@@ -136,7 +132,7 @@ public class ProviderDialog extends javax.swing.JDialog {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 182, Short.MAX_VALUE)
                         .addComponent(jButtonAccess, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
