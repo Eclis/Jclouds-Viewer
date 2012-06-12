@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import javax.swing.DefaultListModel;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-import javax.swing.JProgressBar;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -301,16 +300,24 @@ public class MainFrameControl {
                 while (tableModel.getRowCount() > 0) {
                     tableModel.removeRow(0);
                 }
+                String nodeId = "";
+                String providerId = "";
+                String nodeName = "";
+                String location = "";
+                String oS = "";
+                String state = "";
+                String hostname = "";
+
                 for (ComputeMetadata node : compute.listNodes()) {
                     metadatas.add(node);
                     NodeMetadata metadata = compute.getNodeMetadata(node.getId());
-                    String nodeId = metadata.getId();
-                    String providerId = metadata.getProviderId();
-                    String nodeName = metadata.getName();
-                    String location = metadata.getLocation().getDescription();
-                    String oS = metadata.getOperatingSystem().getFamily().name();
-                    String state = metadata.getState().name();
-                    String hostname = metadata.getHostname();
+                    nodeId = metadata.getId();
+                    providerId = metadata.getProviderId();
+                    nodeName = metadata.getName();
+                    location = metadata.getLocation().getDescription();
+                    oS = metadata.getOperatingSystem().getFamily().name();
+                    state = metadata.getState().name();
+                    hostname = metadata.getHostname();
                     String[] data = new String[]{nodeId, providerId, nodeName, location, oS, state, hostname};
                     tableModel.addRow(data);
                 }

@@ -48,9 +48,12 @@ public class ProviderDialogControl {
 
                     Configuration.getInstance().setProvider(provider);
                     Configuration.getInstance().setConnection(conn);
-
-                    mainFrameControl.listContainers();
-                    mainFrameControl.listNodes();
+                    if(provider.getProviderBService() != null && !provider.getProviderBService().isEmpty()){
+                        mainFrameControl.listContainers();
+                    }
+                    if(provider.getProviderCService() != null && !provider.getProviderCService().isEmpty()){
+                        mainFrameControl.listNodes();
+                    }
                 }
             }).start();
         }
