@@ -6,7 +6,7 @@ package eclis.jcloudsviewer.model;
  */
 public enum Provider {
 
-    AMAZON("Amazon", "aws-ec2", "aws-s3"), AZURE("Microsoft", "", "ms-blob"),
+    AMAZON("Amazon", "aws-ec2", "aws-s3"), GOOGLE("Google", "", "googlestorage"),
     GOGRID("GoGrid", "gogrid", "");
     
     private String providerName;

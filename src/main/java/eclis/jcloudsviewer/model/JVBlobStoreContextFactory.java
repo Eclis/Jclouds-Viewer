@@ -21,6 +21,9 @@ public class JVBlobStoreContextFactory {
         BlobStoreContext blobContext = new BlobStoreContextFactory().createContext(
                 provider.getProviderBService(), con.getLogin(),
                 con.getPassword());
+        if(blobContext == null){
+            System.out.println("bunda");
+        }
         return blobContext;
     }
 }
