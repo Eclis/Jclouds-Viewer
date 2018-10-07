@@ -9,7 +9,6 @@ import eclis.jcloudsviewer.model.connection.Connection;
 public class Configuration {
 
     private static Configuration instance;
-    private Provider provider;
     private Connection connection;
 
     public Provider getProvider() {
